@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PointLobby-Ventas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script>
+      function AlertaTrade(){
+          Swal.fire({
+              title: "¡Solicitud de tradeo enviada!",
+              text: "¡Todo salió a la perfección!",
+              icon: "success"
+          });
+      }
+    </script>
+
+</head>
+<body >
+    <header class="header">
+        <div class="logo"><img src="img/Pointlobby.png" alt="PointLobby"></div>
+        <div class="searchdiv" >
+            <div><input class="buscarInput" type="text" placeholder="Buscar"></div>
+        </div>
+        <div class="centerBtn">
+            <div>
+              <a href="principal.html"><button type="button" class="btnIniciar">VOLVER A PRINCIPAL</button></a>
+            </div>
+            <div>
+                <a href="comunidad.html"><button type="button" class="btnIniciar">COMUNIDAD</button></a>
+            </div>
+            <div>
+                <a href="ventas.html"><button type="button" class="btnIniciar">VENTAS</button></a>       
+            </div>
+        </div>
+    </header>
+    <div class="contenedor" style="margin-top: 100px;">    
+        <div class="card" style="width: 18rem;">
+        <img src="img\tradeos\airpods.jpg" class="card-img-top" alt="airpods">
+        <div class="card-body">
+          <strong><h5 class="card-title">Airpods</h5></strong>
+          <strong>
+            <br>
+            <p class="card-text">
+                Trader: Juanito Alcachofa
+            </p>
+          </strong>
+          <strong>
+            <br>
+            <p class="card-text">
+                Ubicación: Stgo, chile.
+            </p>
+          </strong>
+          <strong>
+            <br>
+            <p class="card-text">
+                Descripción: Estoy en busca de un manubrio para computadora.
+            </p>
+          </strong>
+          <br>
+          <a class="btn btn-danger" onclick="AlertaTrade()">Tradear con negociante</a>
+        </div>
+        </div>
+        
+        <div class="card" style="width: 18rem; margin-left: 20px;">
+            <img src="img\tradeos\note.jpg" class="card-img-top" alt="note">
+            <div class="card-body">
+                <strong><h5 class="card-title">Notebook</h5></strong>
+                <strong>
+                  <br>
+                  <p class="card-text">
+                      Trader: Elsa pallo.
+                  </p>
+                </strong>
+                <strong>
+                  <br>
+                  <p class="card-text">
+                      Ubicación: Stgo, chile.
+                  </p>
+                </strong>
+                <strong>
+                  <br>
+                  <p class="card-text">
+                      Descripción: Estoy en busca de unos audifonos, ofrezca.
+                  </p>
+                </strong>
+                <br>
+                <a  class="btn btn-danger" onclick="AlertaTrade()">Tradear con negociante</a>
+            </div>
+            </div>
+
+        <div class="card" style="width: 18rem; margin-left: 20px;">
+            <img src="img\tradeos\tablet.jpg" class="card-img-top" alt="tablet">
+            <div class="card-body">
+                <strong><h5 class="card-title">Tablet</h5></strong>
+                <strong>
+                  <br>
+                  <p class="card-text">
+                      Trader: Bad Bunny.
+                  </p>
+                </strong>
+                <strong>
+                  <br>
+                  <p class="card-text">
+                      Ubicación: Stgo, chile.
+                  </p>
+                </strong>
+                <strong>
+                  <br>
+                  <p class="card-text">
+                      Descripción: Estoy en busca de una interfaz de sonido.
+                  </p>
+                </strong>
+                <br>
+                <a class="btn btn-danger" onclick="AlertaTrade()">Tradear con negociante</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem; margin-left: 20px;">
+            <img src="img\tradeos\tabletninos.jpg" class="card-img-top" alt="tabletninos">
+            <div class="card-body">
+                <strong><h5 class="card-title" >Tablet para niños</h5></strong>
+                <strong>
+                  <br>
+                  <p class="card-text">
+                      Trader: Diego aguila
+                  </p>
+                </strong>
+                <strong>
+                  <br>
+                  <p class="card-text">
+                      Ubicación: Stgo, chile.
+                  </p>
+                </strong>
+                <strong>
+                  <br>
+                  <p class="card-text">
+                      Descripción: Estoy en busca de un mouse.
+                  </p>
+                </strong>
+                <br>
+                <a class="btn btn-danger" onclick="AlertaTrade()">Tradear con negociante</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem; margin-left: 20px;">
+            <img src="img\tradeos\telefono.jpg" class="card-img-top" alt="telefono">
+            <strong><h5 class="card-title">Teléfono</h5></strong>
+            <strong>
+              <br>
+              <p class="card-text">
+                  Trader: Polilla Loca.
+              </p>
+            </strong>
+            <strong>
+              <br>
+              <p class="card-text">
+                  Ubicación: Stgo, chile.
+              </p>
+            </strong>
+            <strong>
+              <br>
+              <p class="card-text">
+                  Descripción: Estoy en busca de un rascador para gatos.
+              </p>
+            </strong>
+            <br>
+            <a class="btn btn-danger" onclick="AlertaTrade()">Tradear con negociante</a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+  </body>
+</html>

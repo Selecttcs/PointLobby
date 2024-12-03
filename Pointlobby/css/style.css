@@ -1,0 +1,152 @@
+body{
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+}
+
+.header{
+    background-color: #390b0c ;
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.logo{
+   margin-left: 20px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.btnIniciar{
+    display: flex;
+    background-color:  #201c1c ;
+    color: #ffffff;
+    padding: 10px;
+}
+.centerBtn{
+    display: flex;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.searchdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+.buscarInput::placeholder {
+    color: #390b0c;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.buscarInput{
+    padding: 10px;
+    border-radius: 20px;
+    width: 220px;
+}
+
+.formulario{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: #390b0c;
+    border-radius: 10px
+}
+
+.formulario h1{
+    color: #ffffff;
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+.botonSesionLoginDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.botonSesionLogin{
+    display: flex;
+    padding: 15px;
+    border-radius: 17px;
+}
+
+form .correo{
+    position: relative;
+    border-bottom: 2px solid silver;
+    margin: 30px 0;
+}
+.colorLetra{
+    color: #ffffff;
+}
+
+.password{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.correo{
+    display: flex;
+    justify-content: center;
+}
+
+.backBtnDiv{
+    display: flex;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.backBtn{
+    display: flex;
+    background-color:  #201c1c ;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.CrearCta{
+    display: flex;
+    margin-left: 20px;
+}
+.labelCrearcta{
+    display: flex;
+    margin-top: 10px;
+}
+
+.btnCreardiv{
+    display:flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.publicaciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.contenedor2{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+
+
+
